@@ -95,7 +95,7 @@ export default function Home() {
         <div className="container mx-auto h-full relative flex flex-col items-center">
           <Header />
 
-          <div className="flex h-divid-custon flex-col justify-center items-center px-10 mb-96 md:items-start w-full">
+          <div className="flex h-divid-custon flex-col justify-center items-center px-10 mb-10 md:mb-96 md:items-start md:w-full">
             <h2 className="font-serif text-red text-3xl text-center md:text-5xl md:text-left">Ola, Eu sou o Sander</h2>
             <p className="font-serif text-white text-center mt-6 md:text-xl md:text-left">Desenvolvedor Front end React.js</p>
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
 
           <p className="text-textGray text-center font-medium mt-8 md:max-w-xl md:mx-auto">Foi me dada a missão de explorar os mais diversos conhecimentos espalhados pelo universo da programação, meu objetivo atual é recolher os conhecimentos em React.js, ao decorrer da missão devo conquistar novos muntos e criar aplicações incriveis e transormadoras para que os terraqueos possam se beneficiar e ajuda-los em seu cotidiano.</p>
 
-          <img className="mt-8 max-w-xl mx-auto" src="/home-2.svg" alt="" />
+          <img className="mt-8 max-w-xl mx-auto w-full" src="/home-2.svg" alt="" />
         </section>
 
 
