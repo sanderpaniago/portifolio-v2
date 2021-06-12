@@ -16,8 +16,6 @@ class MyDocument extends Document {
                     <meta name="description" content="Portifólio Sander Paniago" />
                     <meta name="keywords" content="HTML, CSS, JavaScript, React.js, Next.js, Tailwind, Typescript" />
                     <meta name="author" content="Sander Pereira Paniago" />
-
-                    <title>Sander Paniago | Wellcome</title>
                 </Head>
                 <body>
                     <Main />

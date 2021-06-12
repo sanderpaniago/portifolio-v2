@@ -147,7 +147,7 @@ export default function Home() {
               <img className="md:mr-6 md:w-4/12" src="/home-3.svg" alt="" /> 
 
               <Swiper
-                slidesPerView={width < 1024 ? 1.25 : 2.5}
+                slidesPerView={width < 1024 ? 1.25 : 2}
                 spaceBetween={15} 
                 loop={true} 
                 navigation 
