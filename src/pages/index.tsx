@@ -96,32 +96,32 @@ export default function Home() {
           <Header />
 
           <div className="flex h-divid-custon flex-col justify-center items-center px-10 mb-10 md:mb-96 md:items-start md:w-full">
-            <h2 className="font-serif text-red text-3xl text-center md:text-5xl md:text-left">Ola, Eu sou o Sander</h2>
-            <p className="font-serif text-white text-center mt-6 md:text-xl md:text-left">Desenvolvedor Front end React.js</p>
+            <h2 className="font-serif text-red text-3xl text-center md:text-5xl md:text-left">Ola, Eu sou Sander</h2>
+            <p className="font-serif text-white text-center mt-6 md:text-xl md:text-left">Desenvolvedor Front-end React.js</p>
           </div>
 
           <div className="absolute -bottom-1">
-            <img src="/home.svg" alt="" />
+            <img src="/home.svg" alt="background" />
           </div>
         </div>
       </div>
       <main className="border-b-4 border-red pb-14">
         <section className="container mx-auto px-4 flex flex-col">
           <div className="mx-auto -mt-12 z-10">
-              <img src="/profile.png" alt="" />
+              <img src="/profile.png" alt="profile" />
           </div>
 
           <h2 className="font-serif text-red text-2xl text-center mt-7">Sander Pereira Paniago</h2>
-          <p className="font-serif text-white text-center mt-3.5 uppercase">Desenvolvedor Front end</p>
+          <p className="font-serif text-white text-center mt-3.5 uppercase">Desenvolvedor Front-end</p>
 
-          <p className="text-textGray text-center font-medium mt-8 md:max-w-xl md:mx-auto">Foi me dada a missão de explorar os mais diversos conhecimentos espalhados pelo universo da programação, meu objetivo atual é recolher os conhecimentos em React.js, ao decorrer da missão devo conquistar novos muntos e criar aplicações incriveis e transormadoras para que os terraqueos possam se beneficiar e ajuda-los em seu cotidiano.</p>
+          <p className="text-textGray text-center font-medium mt-8 md:max-w-xl md:mx-auto">Foi me dada a missão de explorar os mais diversos conhecimentos espalhados pelo universo da programação, meu objetivo atual é recolher os conhecimentos em React.js, ao decorrer da missão devo conquistar novos mundos e criar aplicações incríveis e transformadoras para que os terráqueos possam se beneficiar e ajuda-los em seu cotidiano.</p>
 
           <img className="mt-8 max-w-xl mx-auto w-full" src="/home-2.svg" alt="" />
         </section>
 
 
         <section className="container mx-auto mt-20 px-4">
-          <h3 className="font-serif text-white text-2xl text-center mt-7">Algumas dos conhecimentos ja adiquidos</h3>
+          <h3 className="font-serif text-white text-2xl text-center mt-7">Alguns dos conhecimentos já conquistados</h3>
 
           <Swiper
             slidesPerView={width < 1024 ? 2.6 : 4}
