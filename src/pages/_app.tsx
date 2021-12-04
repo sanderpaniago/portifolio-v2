@@ -10,14 +10,14 @@ import 'swiper/components/pagination/pagination.scss';
 import '../styles/swiper.scss'
 
 function MyApp({ Component, pageProps }) {
-  return(
+  return (
     <SnackbarProvider maxSnack={3}>
       <Head>
         <title>Sander Paniago | Wellcome</title>
       </Head>
       <Component {...pageProps} />
     </SnackbarProvider>
-  ) 
+  )
 }
 
 export default MyApp
